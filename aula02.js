@@ -1,4 +1,4 @@
-var http = required('http');
+var http = require('http');
 http.createServer(function (req, res){
         res.writeHead(200, {'Content-Type':'text/html'});
         res.write('<h2> Brasil 2 x 0 Sérvia </h2> <br>');
